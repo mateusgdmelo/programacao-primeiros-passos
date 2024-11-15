@@ -3,29 +3,29 @@ programa
 	
 	funcao inicio()
 	{
-		cadeia nome 
-		inteiro data_de_nascimento 
-		real salario
-		escreva("Nome do funcionário: ")
-		leia(nome)
-		escreva("Ano de nascimento: ")
-		leia(data_de_nascimento)
-		escreva("Salário: R$ ")
-		leia(salario)
-		escreva("\n")
-		escreva("--------FICHA FUNCIONAL--------\n" 
-		+"Nome: " +nome 
-		+"\nNascimento em " +data_de_nascimento 
-		+"\nSalário de R$ " +salario
-		+"\n-------------------------------")
+		inteiro numero
+		escreva("{ Exercício 003 - Antes e depois }\n\n")
+		escreva("Me diga um número: ")
+		leia(numero)
+		escreva("O antecessor de " +numero +" é o valor " +(numero-1))
+		escreva("\nO sucessor de " +numero +" é o valor " +(numero+1))
 	}
-}
+	
+//   Ordem de precedência das operações:
+// . () parênteses 
+// . + e - soma e diminuição unária
+// . * , / e % multiplicação, divisão e módulo
+// . + e - soma e diminuição binária
+// .
+// v
+} 
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 393; 
+ * @POSICAO-CURSOR = 107; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
