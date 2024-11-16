@@ -1,16 +1,18 @@
 programa
 {
-	
+	inclua biblioteca Texto --> txt
 	funcao inicio()
 	{
-		real preco
+		cadeia nome
 		
-		escreva("{ Exercício 008 - Desconto no produto }\n")
-		escreva("Qual é o preço do produto? ")
-		leia(preco)
+		escreva("{ Exercício 012 - Seu nome }")
+		escreva("\nDigite seu nome completo: ")
+		leia(nome)
+
+		inteiro posicao = txt.posicao_texto(" ", nome, 0)
+		cadeia primeiro_nome = txt.extrair_subtexto(nome, 0, posicao)
 		
-		escreva("\nCom 5% de desconto, o produto sai por " +(preco-(preco*5/100)))
-		escreva("\nAo todo teremos R$" +(preco*5/100) +" de economia.")
+		escreva("Seu primeiro nome é " +primeiro_nome)
 		escreva("\n")
 	}
 }
@@ -19,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 318; 
+ * @POSICAO-CURSOR = 368; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

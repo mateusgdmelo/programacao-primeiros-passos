@@ -11,6 +11,7 @@ programa
 		leia(nota2)
 		escreva("\nAs notas do aluno foram " +nota1 +" e " +nota2)
 		escreva("\nA média final foi " +((nota1+nota2)/2))
+		escreva("\n\n")
 		
 	}
 }
@@ -19,9 +20,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 9; 
+ * @POSICAO-CURSOR = 52; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {nota1, 6, 7, 5}-{nota2, 6, 14, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
