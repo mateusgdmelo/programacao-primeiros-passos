@@ -5,7 +5,7 @@ programa
 	{
 		inteiro n1, n2, n3
 		escreva("{ Exercício 025 - Três valores em ordem }")
-		escreva("\nDigite um valor: ")
+		escreva("\nDigite um valor: ")
 		leia(n1)
 		escreva("Digite outro valor: ")
 		leia(n2)
@@ -25,6 +25,7 @@ programa
 		} senao se ((n3>n1 e n3>n2) e (n1>n2)) {
 			escreva("\nMaior: "+n3 +"\nIntermediário: "+n1 +"\nMenor: "+n2)
 		}
+		escreva("\n\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -32,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 168; 
+ * @POSICAO-CURSOR = 974; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

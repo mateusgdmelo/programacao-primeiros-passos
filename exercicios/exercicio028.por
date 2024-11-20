@@ -10,13 +10,13 @@ programa
 		leia(preco)
 		escreva("\n")
 		escreva("          ESCOLHA UM PERÍODO         ")
-		escreva("\n     ========================      ")
-		escreva("\n     1    Canaval [+10%]           ")
-		escreva("\n     2    Férias escolares [+20%]  ")
-		escreva("\n     3    Dia das Crianças [+5%]   ")
-		escreva("\n     4    Black Friday [-30%]      ")
-		escreva("\n     5    Natal [-5%]              ")
-		escreva("\n     ========================      ")
+		escreva("\n     ==============================")
+		escreva("\n     1    Canaval            [+10%]")
+		escreva("\n     2    Férias escolares   [+20%]")
+		escreva("\n     3    Dia das Crianças   [+5% ]")
+		escreva("\n     4    Black Friday       [-30%]")
+		escreva("\n     5    Natal              [-5% ]")
+		escreva("\n     ==============================")
 		escreva("\n        Digite sua opção => ")
 		leia(opcao)
 		escreva("-----------------------------------------")
@@ -47,7 +47,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1404; 
+ * @POSICAO-CURSOR = 549; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

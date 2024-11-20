@@ -15,28 +15,35 @@ programa
 		escreva("\n          ==============================")
 		escreva("\n          Digite sua opção => ")
 		leia(opcao)
-		escreva("          Você escolheu a operação [" +opcao +"]")
+		se (opcao == '+' ou opcao == '1') escreva("          Você escolheu a operação [+]")
+		senao se (opcao == '-' ou opcao == '2') escreva("          Você escolheu a operação [-]")
+		senao se (opcao == '*' ou opcao == '3') escreva("          Você escolheu a operação [*]")
+		senao se (opcao == '/' ou opcao == '4') escreva("          Você escolheu a operação [/]")
 		escreva("\n\nDigite o primeiro número: ")
 		leia(num1)
 		escreva("Digite o segundo número: ")
 		leia(num2)
 		escreva("\n--------------------------")
-		escreva("\nCalculando o valor de " +num1 +" " +opcao +" " +num2)
-		escolha (opcao){
-			caso '+': 
-			escreva("\nResultado da soma: " +(num1+num2))
-			pare
-			caso '-':
-			escreva("\nResulatdo da subtração: " +(num1-num2))
-			pare
-			caso '*':
-			escreva("\nResulatdo da multiplicação: " +(num1*num2))
-			pare
-			caso '/':
-			escreva("\nResulatdo da divisão: " +(num1/num2))
-			pare
+		escolha (opcao) {
+			caso '+': caso '1': 
+				escreva("\nCalculando o valor de " +num1 +"+" +num2)
+		  		escreva("\nResultado da soma: " +(num1+num2)) 
+				pare
+			caso '-': caso '2':
+				escreva("\nCalculando o valor de " +num1 +"-" +num2)
+		  		escreva("\nResultado da soma: " +(num1-num2)) 
+				pare
+			caso '*': caso '3': 
+				escreva("\nCalculando o valor de " +num1 +"*" +num2)
+			  	escreva("\nResultado da soma: " +(num1*num2)) 
+				pare
+			caso '/': caso '4':
+				escreva("\nCalculando o valor de " +num1 +"/" +num2)
+			  	escreva("\nResultado da soma: " +(num1/num2)) 
+				pare
 			caso contrario:
-			escreva("\nNão é possível realizar essa operação. Tente novamente")
+				escreva("\nCalculando o valor de " +num1 +"+" +num2)
+			  	escreva("\nResultado da soma: " +(num1+num2)) 
 		}
 		escreva("\n--------------------------")
 		escreva("\nVOLTE SEMPRE!\n")
@@ -47,7 +54,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 805; 
+ * @POSICAO-CURSOR = 1730; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
