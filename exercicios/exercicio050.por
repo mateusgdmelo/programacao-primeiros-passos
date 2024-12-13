@@ -1,6 +1,6 @@
 programa
 {
-	
+	inclua biblioteca Util --> u
 	funcao inicio()
 	{
 		inteiro n1, n2, s, x, y
@@ -14,8 +14,10 @@ programa
 			escreva("--------------------")
 			escreva("\n  TABUADA DE ", n1)
 			escreva("\n--------------------\n")
+			u.aguarde(600)
 			para(x=1; x<=10; x++) {
 				escreva(n1, " x ", x, " = ", n1*x, "\n")
+				u.aguarde(300)
 			}
 			n1++
 		}
@@ -27,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 234; 
+ * @POSICAO-CURSOR = 384; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
