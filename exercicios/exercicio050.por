@@ -14,7 +14,7 @@ programa
 			escreva("--------------------")
 			escreva("\n  TABUADA DE ", n1)
 			escreva("\n--------------------\n")
-			u.aguarde(600)
+			u.aguarde(700)
 			para(x=1; x<=10; x++) {
 				escreva(n1, " x ", x, " = ", n1*x, "\n")
 				u.aguarde(300)
