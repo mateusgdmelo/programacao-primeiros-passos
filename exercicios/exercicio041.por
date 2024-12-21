@@ -1,6 +1,7 @@
 programa
-{  
-	inclua biblioteca Tipos --> t
+{  
+	inclua biblioteca Texto --> txt
+	inclua biblioteca Tipos --> t
 	inclua biblioteca Matematica --> m
 	funcao inicio()
 	{
@@ -12,7 +13,7 @@ programa
 	 		escreva("\nOBS.: Digite 'ACABOU' no nome para parar a execução.")
 	 		escreva("\nNome: ")
 	 		leia(nome)
-	 		se (nome == "acabou" ou nome == "ACABOU") {
+	 		se (txt.caixa_alta(nome) == "ACABOU") {
 	 			pare
 	 		}
 			tot_amg++
@@ -49,7 +50,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1311; 
+ * @POSICAO-CURSOR = 45; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
