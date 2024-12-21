@@ -18,16 +18,17 @@ programa
 			se (n%2==0) {
 				par = par +1
 			}
-			se (n%2==1) {
+			se (n%2==1 e c==1) {
 				menor = n
 				maior = n
-				se (n < menor) {
+			} senao {
+				se (n%2==1 e n < menor) {
 					menor = n
 				}
-				se (n > maior) {
+				se (n%2==1 e n > maior) {
 					maior = n
 				}
-			} 
+			}
 			c++
 		} enquanto (resp=='S' ou resp=='s')
 		escreva("\n================================")
@@ -41,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 53; 
+ * @POSICAO-CURSOR = 836; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
