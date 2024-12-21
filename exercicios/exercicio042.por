@@ -1,25 +1,26 @@
 programa
 {
+	inclua biblioteca Texto --> txt
 	inclua biblioteca Matematica --> M
-	inclua biblioteca Tipos --> T
+	inclua biblioteca Tipos --> T
 	funcao inicio()
 	{
 		inteiro salario, c = 1, mas = 0, fem = 0, fem_maisdemil = 0, soma_sal_mens = 0, media_mens = 0, maior = 0, menor = 0
-		cadeia nome
-		caracter sexo, cont
+		cadeia nome, sexo
+		caracter cont
 		escreva("{ Exercício 042 - Cadastro de funcionários }\n")
 		enquanto (verdadeiro) {
 			escreva("Nome: ")
 			leia(nome)
-			escreva("Sexo: ")
+			escreva("Sexo [M/F]: ")
 			leia(sexo)
-			escreva("Salário: ")
+			escreva("Salário: R$")
 			leia(salario)
 			escreva("************************\n")
 			escreva("Quer continuar [S/N]: ")
 			leia(cont)
 			escreva("************************\n")
-			se (sexo == 'm' ou sexo =='M') {
+			se (txt.caixa_alta(sexo) == "M") {
 				mas++
 				soma_sal_mens = soma_sal_mens + salario
 				se (mas == 1) {
@@ -34,10 +35,10 @@ programa
 					}
 				}
 			} senao {
-				se (sexo == 'f' ou sexo == 'F') {
+				se (txt.caixa_alta(sexo) == "F") {
 					fem++
 				}
-				se ((sexo == 'f' ou sexo == 'F') e salario > 1000) {
+				se ((txt.caixa_alta(sexo) == "F") e salario > 1000) {
 					fem_maisdemil++
 				}
 			}
@@ -61,9 +62,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1369; 
+ * @POSICAO-CURSOR = 431; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {salario, 7, 10, 7}-{fem, 7, 35, 3}-{fem_maisdemil, 7, 44, 13}-{sexo, 9, 11, 4};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
