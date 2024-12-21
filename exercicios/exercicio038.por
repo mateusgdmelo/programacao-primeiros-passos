@@ -3,12 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro c = 1, idade, i_m_jovem = 0, i_m_velha = 0, i_h_jovem = 0, i_h_velho = 0
+		inteiro c = 1, idade, i_m_jovem = 0, i_m_velha = 0, i_h_jovem = 0, i_h_velho = 0, id
 		cadeia nome, m_jovem = "", m_velha = "", h_jovem = "", h_velho = ""
 		caracter sexo
 		escreva("{ Exercício 038 - Analisando idades }\n")
-		enquanto (c<=5) {
-			escreva("--------------\n")
+		escreva("Quantas idades você quer analisar? ")
+		leia(id)
+		enquanto (c<=id) {
+			escreva("--------------\n")
 			escreva(c, "º PESSOA\n")
 			escreva("--------------\n")
 			escreva("Nome: ")
@@ -58,7 +60,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 120; 
+ * @POSICAO-CURSOR = 336; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {c, 6, 10, 1}-{idade, 6, 17, 5}-{i_m_jovem, 6, 24, 9}-{i_m_velha, 6, 39, 9}-{i_h_jovem, 6, 54, 9}-{i_h_velho, 6, 69, 9}-{nome, 7, 9, 4}-{m_jovem, 7, 15, 7}-{m_velha, 7, 29, 7}-{h_jovem, 7, 43, 7}-{h_velho, 7, 57, 7}-{sexo, 8, 11, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
