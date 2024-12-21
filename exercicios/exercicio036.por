@@ -1,13 +1,13 @@
 programa
 {
-	inclua biblioteca Util --> t
+	inclua biblioteca Util --> t
 	funcao inicio()
 	{
 		inteiro n, c = 1, sorteio, soma = 0, soma_div3 = 0, soma_div2 = 0, soma_impar = 0, soma_par = 0
 		escreva("{ Exercício 036 - Analisando números }")
 		escreva("\nQuantos números vou sotear? ")
 		leia(n)
-		escreva("Sorteando ", n, " números... ")
+		escreva("Sorteando ", n, " números:\n ")
 		enquanto (c<=n) {
 			sorteio = t.sorteia(0, n)
 			escreva(sorteio, ".. ")
@@ -43,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 618; 
+ * @POSICAO-CURSOR = 302; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {n, 6, 10, 1}-{c, 6, 13, 1}-{sorteio, 6, 20, 7}-{soma, 6, 29, 4}-{soma_div3, 6, 39, 9}-{soma_div2, 6, 54, 9};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
