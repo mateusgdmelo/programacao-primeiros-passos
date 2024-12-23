@@ -16,11 +16,11 @@ programa
 				u.aguarde(300)
 				escreva(1, "  ")
 				u.aguarde(300)
-			}
-			
+			}	
 			escreva(s, "  ")
 			u.aguarde(300)
 		}
+		escreva("- FIM!")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 325; 
+ * @POSICAO-CURSOR = 426; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {n, 6, 10, 1}-{c, 6, 13, 1}-{f1, 6, 16, 2}-{f2, 6, 22, 2}-{s, 6, 28, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
