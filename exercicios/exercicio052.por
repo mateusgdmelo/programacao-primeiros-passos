@@ -1,11 +1,11 @@
 programa
 {
-	inclua biblioteca Util --> u
+	inclua biblioteca Util --> u
 	funcao inicio()
 	{
 		inteiro n, x, y, z
 		escreva("{ Exercício 052 - Pirâmide }\n")
-		escreva("Quantos andares? ")
+		escreva("Quantos andares a pirâmide vai ter? ")
 		leia(n)
 		escreva("\n")
 		para (x=n; x>0; x--) {
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 204; 
+ * @POSICAO-CURSOR = 95; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {n, 6, 10, 1}-{x, 6, 13, 1}-{y, 6, 16, 1}-{z, 6, 19, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
