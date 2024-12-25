@@ -15,6 +15,7 @@ programa
 		escreva("O vetor foi gerado com os valores: \n")
 		para (pos=0; pos<u.numero_elementos(val); pos++) {
 			escreva(pos, ":{", val[pos], "} ")
+			u.aguarde(300)
 		}
 
 		escreva("FIM!\n")
@@ -25,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 541; 
+ * @POSICAO-CURSOR = 535; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
