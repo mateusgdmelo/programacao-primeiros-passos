@@ -30,10 +30,11 @@ programa
 		}
 
 		se (tot==0) {
-			escreva("O valor ", chave, " não foi encontrado dentro do vetor.\n")
+			escreva("O valor ", chave, " não foi encontrado dentro do vetor.")
 		} senao {
-			escreva("O valor ", chave, " foi encontrado ", tot, " vezes dentro do vetor.\n")
+			escreva("O valor ", chave, " foi encontrado ", tot, " vezes dentro do vetor.")
 		}
+		escreva("\n")
 
 		
 	}
@@ -43,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 333; 
+ * @POSICAO-CURSOR = 847; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
