@@ -101,9 +101,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 203; 
+ * @POSICAO-CURSOR = 445; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {linha, 6, 10, 5}-{coluna, 6, 17, 6}-{sort, 6, 25, 4}-{cont, 6, 34, 4}-{tela, 7, 11, 4}-{jogo, 7, 23, 4};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
