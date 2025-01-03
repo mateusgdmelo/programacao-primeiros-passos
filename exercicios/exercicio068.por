@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util --> u
+	inclua biblioteca Util --> u
 	funcao inicio()
 	{
 		inteiro linha, coluna, sort[5], cont=0, pontos=0
@@ -24,8 +24,8 @@ programa
 			}
 		}
 		faca {
-			linha=sorteia(1, 4)
-			coluna=sorteia(1, 4)
+			linha=sorteia(0, 4)
+			coluna=sorteia(0, 4)
 			se (jogo[linha][coluna]==nada e jogo[linha][coluna]!=bomba) {
 				jogo[linha][coluna]=bomba
 				cont++
@@ -101,9 +101,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 445; 
+ * @POSICAO-CURSOR = 139; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {tela, 7, 11, 4}-{jogo, 7, 23, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
