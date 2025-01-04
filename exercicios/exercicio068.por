@@ -24,8 +24,8 @@ programa
 			}
 		}
 		faca {
-			linha=sorteia(0, 4)
-			coluna=sorteia(0, 4)
+			linha=sorteia(0, u.numero_linhas(jogo)-1)
+			coluna=sorteia(0, u.numero_colunas(jogo)-1)
 			se (jogo[linha][coluna]==nada e jogo[linha][coluna]!=bomba) {
 				jogo[linha][coluna]=bomba
 				cont++
@@ -83,7 +83,8 @@ programa
 							escreva("\n")
 						}
 						escreva("\n--------------------------------------------------------\n")
-						escreva("Infelizmente você acertou uma bomba e perdeu a partida. \nMas você fez ", pontos, " pontos em ", p, " tentativas.")
+						escreva("Infelizmente você acertou uma bomba e perdeu a partida.")
+						escreva("\nMas você fez ", pontos, " pontos em ", p, " tentativas.")
 						escreva("\n\n")
 						pare
 				}
@@ -101,9 +102,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 139; 
+ * @POSICAO-CURSOR = 2868; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {tela, 7, 11, 4}-{jogo, 7, 23, 4};
+ * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
