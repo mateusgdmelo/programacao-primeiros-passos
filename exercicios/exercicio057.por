@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util --> u
+	inclua biblioteca Util --> u
 	funcao inicio()
 	{
 		inteiro sor[10]
@@ -13,11 +13,9 @@ programa
 			u.aguarde(300)
 		}
 		escreva("\n\nMostrando a sequência invertida...\n\n")
-		inteiro ind = 9
 		escreva("Vetores invertidos: \n")
-		para (inteiro pos=0; pos<u.numero_elementos(sor); pos++) {
-			escreva(ind, ":{", sor[ind], "} ")
-			ind--
+		para (inteiro pos=u.numero_elementos(sor)-1; pos>=0; pos--) {
+			escreva(pos, ":{", sor[pos], "} ")
 			u.aguarde(300)
 		}
 		escreva("\n\nFim!\n")
@@ -28,9 +26,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 604; 
+ * @POSICAO-CURSOR = 92; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {sor, 6, 10, 3}-{pos, 10, 16, 3}-{ind, 16, 10, 3}-{pos, 18, 16, 3};
+ * @SIMBOLOS-INSPECIONADOS = {sor, 6, 10, 3}-{pos, 10, 16, 3}-{pos, 17, 16, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
