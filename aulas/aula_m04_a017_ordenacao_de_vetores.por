@@ -1,7 +1,7 @@
 programa
 {
-	// AULA 017 - MÓDULO 04
-	// ORDENAÇÃO DE VETORES
+			// AULA 017 - MÓDULO 04
+			// ORDENAÇÃO DE VETORES
 	inclua biblioteca Util --> u
 	funcao inicio()
 	{
@@ -45,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 17; 
+ * @POSICAO-CURSOR = 16; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {vet, 9, 10, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
