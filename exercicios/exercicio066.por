@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util --> u
+	inclua biblioteca Util --> u
 	funcao inicio()
 	{
 		inteiro num[3][3], maior=0, menor=0
@@ -8,7 +8,7 @@ programa
 		escreva("\nPreencha a matriz com valores de 1 a 10: \n")
 		para (inteiro l=0; l<u.numero_linhas(num); l++) {
 			para (inteiro c=0; c<u.numero_colunas(num); c++) {
-				escreva("Digite um valor para posição [", l, "]", "[", c, "]: ")
+				escreva("Digite um valor para posição [", l, "][", c, "]: ")
 				leia(num[l][c])
 			}
 		}
@@ -57,7 +57,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 117; 
+ * @POSICAO-CURSOR = 112; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {num, 6, 10, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
