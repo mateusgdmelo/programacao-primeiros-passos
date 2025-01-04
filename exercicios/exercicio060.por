@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util --> u
+	inclua biblioteca Util --> u
 	funcao inicio()
 	{
 		inteiro val[10], somap=0, tot_im=0, maior=0, menor=0, tot_maior=0

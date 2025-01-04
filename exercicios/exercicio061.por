@@ -1,7 +1,7 @@
 programa
 {
 	inclua biblioteca Tipos --> t
-	inclua biblioteca Texto --> txt
+	inclua biblioteca Texto --> txt
 	inclua biblioteca Util --> u
 	funcao inicio()
 	{
@@ -36,16 +36,13 @@ programa
 			}
 		}
 		escreva("\nTOTAL = ", tot_vog)
+		// NOMES COM A LETRA "S"
 		escreva("\n-------------------------------------") 
 		escreva("\nNomes que possuem a letra S: ")
 		para (inteiro ind=0; ind<u.numero_elementos(nome); ind++) {
-			nome[ind] = txt.caixa_alta(nome[ind])
-			ptxt = txt.posicao_texto("S", nome[ind], 0)
-			se (ptxt != -1) {
-					se (letraS == txt.obter_caracter(nome[ind], ptxt)) {
-					escreva("\n[", ind, "] = ", nome[ind])
-					totS++
-				}
+			se (txt.posicao_texto("S", txt.caixa_alta(nome[ind]), 0) != -1) {
+				escreva("\n[", ind, "] = ", nome[ind])
+				totS++
 			}
 		}
 		escreva("\nTOTAL = ", totS)
@@ -59,9 +56,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 274; 
+ * @POSICAO-CURSOR = 269; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {letras, 8, 18, 6}-{ptxt, 8, 47, 4}-{nome, 9, 9, 4}-{vogal, 10, 11, 5}-{ind, 12, 16, 3}-{ind, 21, 16, 3}-{ind, 30, 16, 3}-{ind, 41, 16, 3};
+ * @SIMBOLOS-INSPECIONADOS = {letras, 8, 18, 6}-{ptxt, 8, 47, 4}-{nome, 9, 9, 4}-{vogal, 10, 11, 5}-{ind, 12, 16, 3}-{ind, 21, 16, 3}-{ind, 30, 16, 3}-{p, 31, 17, 1}-{ind, 42, 16, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
